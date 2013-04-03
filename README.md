@@ -1,4 +1,4 @@
 joshgordon.github.com
 =====================
 
-This is for my webpage. 
+Geeky programmer and photographer. Also an audiophile. 
