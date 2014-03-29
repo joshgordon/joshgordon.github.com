@@ -37,7 +37,7 @@ top("Josh Gordon's Map", "map") ;
         ['ga', 1], 
         ['sc', 3], 
         ['nc', 3], 
-        ['tn', 2], 
+        ['tn', 3], 
         ['va', 3], 
         ['wv', 2], 
         ['mo', 2],  
@@ -51,7 +51,8 @@ top("Josh Gordon's Map", "map") ;
         ['ct', 2], 
         ['nh', 3], 
         ['me', 2],  
-        ['ne', 0]
+        ['ne', 0], 
+        ['de', 3], 
     
       ]);
     
@@ -131,6 +132,11 @@ top("Josh Gordon's Map", "map") ;
     Want to visit
   </div> 
 </div>  
+<div class="color" style="background-color: #fef0d9"> 
+  <div class="info"> 
+    Never Been
+  </div> 
+</div> 
 <?php 
 bottom() ; 
 ?> 

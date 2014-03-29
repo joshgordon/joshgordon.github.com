@@ -64,6 +64,9 @@ function top($title, $pagename)
                     <li>
                       <a href="https://github.com/joshgordon/">Github</a>
                     </li>
+                    <li> 
+                      <a href="https://twitter.com/thejoshgordon">Twitter</a> 
+                    </li> 
                   </ul>
                 </li>
 
