@@ -47,7 +47,7 @@ top("Josh Gordon's Map", "map") ;
         ['mi', 3], 
         ['nj', 3], 
         ['ny', 3], 
-        ['ma', 2], 
+        ['ma', 3], 
         ['ct', 2], 
         ['nh', 3], 
         ['me', 2],  
