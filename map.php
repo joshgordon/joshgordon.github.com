@@ -19,7 +19,7 @@ top("Josh Gordon's Map", "map") ;
         ['State', 'Status'],
         ['Maryland', 4],
         ['Texas', 3],
-        ['Washington', 2],
+        ['Washington', 3],
         ['Oregon', 2],
         ['Idaho', 3],
         ['Montana', 3],
