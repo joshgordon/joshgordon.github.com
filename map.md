@@ -35,7 +35,7 @@ pageslug: map
         ['ak', 0],
         ['hi', 0], 
         ['fl', 3], 
-        ['ga', 1], 
+        ['ga', 2], 
         ['sc', 3], 
         ['nc', 3], 
         ['tn', 3], 
@@ -49,7 +49,7 @@ pageslug: map
         ['nj', 3], 
         ['ny', 3], 
         ['ma', 3], 
-        ['ct', 2], 
+        ['ct', 3], 
         ['nh', 3], 
         ['me', 2],  
         ['ne', 0], 
@@ -73,7 +73,7 @@ pageslug: map
   <style>
      .color { 
         height: 75px;
-        width: 100px;
+        width: 150px;
         float: left;
         margin: 10px;
         border: 1px solid #000; 
@@ -101,7 +101,6 @@ pageslug: map
       }
 
   </style> 
-<body style="font-family: Arial;border: 0 none;">
 <div id="visualization"></div>
 
 <div class="color" style="background-color: #b30000">

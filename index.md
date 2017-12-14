@@ -9,11 +9,12 @@ header_img: joshgordon.gif
 
 Hello, I'm Josh. I'm a pretty nerdy person. I've done UI work in the past, though
 currently I'm doing devops work. This site is a nice front for all the other stuff
-I do around the web.
+I do around the web, and a nice place to use as a sandbox for testing out shiny
+new stuff.
 
-This page uses some other fancy stuff that I've learned how to use - such as
-Twitter Bootstrap. Also, I've never really gotten very proficient at CSS up to
-this point, so I figure it's time I actually become half decent at it...
+**NEW** This site is no longer rendered with a php `shell_exec`, I've gone ahead and
+migrated it all to [Jekyll](https://jekyllrb.com/), which I'm probably going to
+do for all my other sites that are using PHP as a templating engine.
 
 Anyways, have a look around. There's probably not going to be a whole lot of
 actual content here, but it's a good place to find links to most of the rest of
