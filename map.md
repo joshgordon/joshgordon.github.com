@@ -1,7 +1,8 @@
-<?php
-include "assets.php" ; 
-top("Josh Gordon's Map", "map") ;
-?> 
+---
+layout: default
+title: Josh Gordon's Map
+pageslug: map
+---
  <script type="text/javascript" src="//www.google.com/jsapi"></script>
   <script type="text/javascript">
     google.load('visualization', '1', {packages: ['geochart']});
@@ -137,6 +138,3 @@ top("Josh Gordon's Map", "map") ;
     Never Been
   </div> 
 </div> 
-<?php 
-bottom() ; 
-?> 
