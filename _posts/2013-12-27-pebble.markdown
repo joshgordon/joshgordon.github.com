@@ -1,0 +1,29 @@
+---
+layout: post
+title: Pebble
+date: '2013-12-27 00:12:16'
+tags:
+- a-better-bit
+---
+
+So, seeing as yesterday was Christmas, and seeing how much of a tech nerd I am, I jumped on the opportunity to ask for a Pebble Smartwatch.
+
+Today, after the chaos of Christmas ended, I sat down to muck around with the Pebble SDK. I was pleasantly surprised (though not terribly so, considering how power efficient the Pebble has to be!) to see everything written in C. Cool. I can handle that. (been doing C this past semester, Java is getting a little rusty since it's now been over a year since I did it for any sort of credit...)
+
+My first task that I assigned myself (mostly to get my feet wet) was to fix the initially terrible Binary Clock app. If you don't already know, it uses a row for 10's of hours, a row for hours, a row for 10's of minutes, and so forth. Also, I feel the Endian-ness is backwards, with the bigger bits on the right.
+
+My other binary clock that I have has an option to make it truly binary - aka a single set of bits for hours, minutes, and seconds. I figured it would be a simple task to do the same for the pebble.
+
+Half an hour later, and I'm done with minimal trouble.
+
+<a href="http://joshgordon.net/wp-content/uploads/2013/12/pebble_binary_1.png"><img class="alignnone size-medium wp-image-196" alt="pebble_binary_1" src="http://joshgordon.net/wp-content/uploads/2013/12/pebble_binary_1-249x300.png" width="249" height="300" /></a>
+
+Of course, the endian-ness is still wrong. A few minutes (you should be able to tell how long...) of code hacking later, and I ended up with this.
+
+<a href="http://joshgordon.net/wp-content/uploads/2013/12/pebble_binary_2.png"><img class="alignnone size-medium wp-image-197" alt="pebble_binary_2" src="http://joshgordon.net/wp-content/uploads/2013/12/pebble_binary_2-243x300.png" width="243" height="300" /></a>
+
+(apologies for the sub-optimal image quality. I took these on my tablet and didn't spend the most time in the world cleaning them up...)
+
+Anyways, I'm probably going to poke at some more stuff. It was not terribly difficult. You can see my git repository <a href="https://github.com/joshgordon/better_bit">here</a>, and you can download the pebble package ~~<a href="#">here</a>~~ from the [pebble appstore](http://pblweb.com/appstore/530a781e24c458af7d00011e)! [search for "a better bit"].
+
+That's all for now!

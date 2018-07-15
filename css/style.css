@@ -1,3 +1,8 @@
+body {
+  font-size: 12pt;
+  color: #333;
+}
+
 .infoBar {
   width: 100%;
   background-color: #ccc;
@@ -21,4 +26,40 @@
   margin-left: 14em;
   clear: both;
   float: left;
+}
+
+#blog-post img {
+	max-width: 100%;
+}
+
+.blog_index .post_title {
+  font-weight: bold;
+  font-size: 16pt;
+}
+
+.blog_index {
+  padding-bottom: 6pt;
+}
+
+
+.post-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.next-post {
+  align-self: flex-end;
+}
+
+.previous-post {
+  align-self: flex-start;
+}
+
+
+figcaption {
+  font-size: 12pt;
+  color: #777;
+  padding-bottom: 12pt;
+  margin-top: -4pt;
 }
